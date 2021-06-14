@@ -10,3 +10,11 @@ This repository contains the following features.
 - Global Validation Pipe supported with option to override the same with custom validations.
 - CORS Enabled and Logged operations with Nest console logger.
 - Minimal implementation, allowing you to extend the project the way you want.
+
+### You would require to create .env file in the project root with the following entries
+
+```
+MONGO_URI=mongodb://localhost:27017/<YOUR-DB-NAME>
+JWT_SECRET=<YOUR_SECRET_KEY_MAKE_SURE_THIS_IS_DIFF_ON_PRODUCTION>
+
+```
